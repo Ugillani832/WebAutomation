@@ -21,7 +21,7 @@ namespace Edible.TestCases
         public void SearchProduct()
         {
            //Searching a product case
-           //Git tuts with talib
+           //Git tuts with talib and umair
             try
             {
              OrderObjects obj = new OrderObjects(driver);
