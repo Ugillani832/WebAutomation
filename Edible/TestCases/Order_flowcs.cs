@@ -20,7 +20,8 @@ namespace Edible.TestCases
         [Test]
         public void SearchProduct()
         {
-           //Searching a product case git
+           //Searching a product case
+           //Git tuts with talib
             try
             {
              OrderObjects obj = new OrderObjects(driver);
