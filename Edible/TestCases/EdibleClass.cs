@@ -18,6 +18,7 @@ namespace Edible.TestCases
         [Test]
         public void Cookiesaccept()
         {
+            //Git class
             // WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             Project_Objects obj = new Project_Objects(driver);
             obj.CookAccept().Click();
