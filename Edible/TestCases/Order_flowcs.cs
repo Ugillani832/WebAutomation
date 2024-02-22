@@ -20,7 +20,7 @@ namespace Edible.TestCases
         [Test]
         public void SearchProduct()
         {
-           
+           //Searching a product case git
             try
             {
              OrderObjects obj = new OrderObjects(driver);
@@ -85,6 +85,7 @@ namespace Edible.TestCases
             AvalibilitySection();
             try
             {
+                //Avalaibility try block
                 OrderObjects obj = new OrderObjects(driver);
                 obj.DeliveryFirstName().SendKeys("Umair");
                 obj.DeliveryLastName().SendKeys("Gillani");
